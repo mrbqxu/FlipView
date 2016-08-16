@@ -223,7 +223,7 @@ public class FlipView extends ViewFlipper implements SVGPictureDrawable, View.On
 			int rearLayout = a.getResourceId(R.styleable.FlipView_rearLayout, R.layout.flipview_rear);
 			Drawable rearBackground = a.getDrawable(R.styleable.FlipView_rearBackground);
 			int rearBackgroundColor = a.getColor(R.styleable.FlipView_rearBackgroundColor, Color.GRAY);
-			int rearImage = a.getResourceId(R.styleable.FlipView_rearImage, R.drawable.ic_action_done);
+			int rearImage = a.getResourceId(R.styleable.FlipView_rearImage, R.drawable.ic_done_white_24dp);
 			rearImagePadding = (int) a.getDimension(R.styleable.FlipView_rearImagePadding, 0);
 			addRearLayout(rearLayout);
 			if (rearBackground == null)
